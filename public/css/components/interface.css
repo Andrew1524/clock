@@ -5,12 +5,12 @@ color: #969696;
 background-color: transparent;
 /* border: red solid 1px; */
 border: none;
-height: 75px;
+height: 80px;
 }
 
 .button:hover {
-   background: gold;
-   transition: 2s;
+   background: #1F1F1F;
+   transition: 1s;
    cursor: pointer;
 }
 
