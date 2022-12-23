@@ -1,0 +1,127 @@
+
+
+.collection {
+   background-color: #000
+}
+
+.container-fluid {
+   display: flex;
+   justify-content: end;
+}
+
+.collection-wrapper {
+   justify-content: space-between;
+   margin: 0;
+   display: flex;
+}
+
+.collection-items {
+    padding: 0;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.collection__title {
+   margin-top: 92px;
+   text-align: center;
+   color: #fff;
+   font-family: 'Playfair Display';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 48px;
+   text-transform: uppercase;
+}
+
+.collection-items__clock {
+   display: flex;
+   justify-content: end;
+   margin-top: 97px;
+   padding: 0;
+   padding: 0 73px;
+}
+
+.collection-item {
+   /* width: 260px; */
+   color: #fff;
+}
+
+
+.collection-item__img {
+   padding: 25px 22px;
+   /* width: 260px; */
+   margin: 0 auto;
+   background-color: #191B1C;
+}
+
+.collection-item__img img {
+   width: 100%;
+}
+
+.collection-item__img div {
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: center center;
+
+}
+
+.collection-item__descr {
+   margin-top: 23px;
+}
+
+.collection-item__price {
+   margin-top: 15px;
+}
+
+
+
+
+/* .collection-bg {
+   padding-top: 500px;
+   margin: 0px;
+   height: 730px;
+   position: relative;
+   padding-top: 160px;
+   padding-bottom: 150px;
+   background: #000 url(../../img/new_collection/new_collection.png) center no-repeat;
+   color: white;
+   z-index: 1;
+   background-size: cover;
+} */
+
+.collection-bg {
+   position: relative;
+   color: white;
+   display: inline-flex;
+}
+
+.new-collection {
+   position: absolute;
+   margin: auto;
+   left: 0;
+   right: 0;
+   bottom: 150px;
+   text-align: center;
+   color: white;
+}
+
+.collection-catalog {
+   font-family: 'Playfair Display';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 48px;
+   text-align: center;
+   text-transform: uppercase;
+}
+
+
+.btn-catalog {
+   width: 140px;
+   height: 48px;
+   border: white 1px solid;
+   background-color: transparent;
+   text-transform: uppercase;
+   margin-top: 15px;
+   color: white;
+}

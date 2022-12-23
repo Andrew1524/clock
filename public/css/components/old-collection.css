@@ -1,0 +1,52 @@
+ .old-collection {
+      background-color: #000;
+ }
+ 
+ .old-collection__bg {
+    position: relative;
+    color: white;
+    display: inline-flex;
+ }
+
+ .old-collection__text {
+   display: flex;
+   /* flex-direction: column; */
+   color: white;
+   /* text-align: center; */
+   align-items: center;
+   margin-top: 100px;
+   flex-direction: column;
+ }
+
+ .old-collection__text___title {
+   font-family: 'Playfair Display';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 36px;
+   line-height: 48px;
+   text-align: center;
+   text-transform: uppercase;
+ }
+
+ .text {
+   height: 180px;
+   width: 628px;
+   font-family: 'PT Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 21px;
+   margin-top: 80px;
+   text-align: center;
+
+ }
+
+.old-collection__btn {
+   width: 298px;
+   height: 45px;
+   border: white 1px solid;
+   background-color: transparent;
+   text-transform: uppercase;
+   margin-top: 65px;
+   color: white;
+ }

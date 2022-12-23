@@ -1,0 +1,24 @@
+.header {
+   height: 40px;
+   background-color: #000;
+   color: grey;
+   display: flex;
+   align-items: center;
+
+}
+
+
+.header-contacts__info, .header-contacts__reg {
+   color: grey;
+   font-size: 12px;
+}
+
+.header-contacts__phone, .header-contacts__login {
+   color: grey;
+   display: flex;
+}
+
+.phone__icon, .login__icon {
+   margin-right: 25px;
+}
+

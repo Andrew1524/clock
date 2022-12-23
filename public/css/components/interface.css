@@ -1,0 +1,21 @@
+.button {
+font-size: 14px;
+text-transform: uppercase;
+color: #969696;
+background-color: transparent;
+/* border: red solid 1px; */
+border: none;
+height: 75px;
+}
+
+.button:hover {
+   background: gold;
+   transition: 2s;
+   cursor: pointer;
+}
+
+
+.btn {
+   display: flex;
+   justify-content: space-between;
+}

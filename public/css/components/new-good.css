@@ -1,0 +1,84 @@
+.new-goods {
+   margin-top: 120px;
+   background-color: black;
+}
+
+.section-title {
+   font-family: 'Playfair Display';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 24px;
+   color: white;
+   text-align: center;
+   text-transform: uppercase;
+   margin-top: 120px;
+}
+.section-title::after {
+content: '';
+display: block;
+height: 2px;
+background:url(../../img/line.png) center no-repeat;
+color: white;
+margin-top: 40px;
+}
+
+.goods-block__title {
+   font-family: 'Playfair Display';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 24px;
+   color: white;
+}
+
+.goods-block__price {
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 21px;
+color: #D0D0D0;
+}
+
+.goods-blocks {
+   margin-top: 80px;
+   display: flex;
+   flex-wrap: wrap;
+   
+}
+
+.goods-block__img {
+   padding: 26px 22px;
+   background-color: #191B1C;
+}
+
+.goods-block__title {
+   margin-top: 25px;
+}
+
+.goods-block__price {
+   margin-top: 10px;
+}
+
+.second-block {
+   margin-top: 20px;
+}
+
+.goods-block__img-7 {
+   padding: 0px 25px;
+}
+
+/* .goods-block__img-8 {
+   background: rgba(25, 27, 28, 0.5);
+   filter: blur(2px);
+} */
+
+.btn-goods:hover {
+   background: rgba(25, 27, 28, 0.5);
+   filter: blur(2px);
+   transition: 2s;
+   cursor: pointer;
+   border: #000 1px solid ;
+}
+
