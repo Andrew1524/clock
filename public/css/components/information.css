@@ -1,3 +1,84 @@
 .information {
    margin-top: 150px;
+   color: white;
+   background-color: #0F0F0F;
+}
+
+.information-block {
+   flex-direction: column;
+   margin-bottom: 35px;
+}
+
+.text-title {
+   margin-top: 63px;
+   text-align: center;
+   font-family: 'Playfair Display';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 48px;
+   text-transform: uppercase;
+}
+
+.text-title::after {
+content: '';
+display: block;
+height: 2px;
+background: url(../../img/line.png) center no-repeat;
+color: white;
+margin-top: 40px;
+margin-bottom: 50px;
+}
+
+.article {
+   margin-right: 150px;
+}
+
+.article-title {
+   font-family: 'PT Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 23px;
+   letter-spacing: 0.1em;
+   text-transform: uppercase;
+}
+
+.article-text {
+   font-family: 'PT Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 150%;
+   text-align: left;
+   margin-top: 14px;
+}
+
+.article-foot {
+   display: flex;
+   justify-content: space-between;
+}
+
+.article-hashtag {
+   font-family: 'PT Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 23px;
+   letter-spacing: 0.1em;
+   text-transform: uppercase;
+   color: white;
+   margin-top: 63px;
+}
+
+.article-btn {
+   width: 140px;
+   height: 48px;
+   border: white 1px solid;
+   background-color: transparent;
+   text-transform: uppercase;
+   /* margin-top: 15px; */
+   color: white;
+   padding: 12px 28px;
+   margin-top: 39px;
 }

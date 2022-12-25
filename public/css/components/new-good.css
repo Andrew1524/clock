@@ -51,6 +51,7 @@ color: #D0D0D0;
 .goods-block__img {
    padding: 26px 22px;
    background-color: #191B1C;
+   position: relative;
 }
 
 .goods-block__title {
@@ -82,3 +83,7 @@ color: #D0D0D0;
    border: #000 1px solid ;
 }
 
+
+.btn-goods {
+   display: block;
+}
