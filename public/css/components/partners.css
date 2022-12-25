@@ -1,0 +1,35 @@
+.partners {
+   background-color: #0F0F0F;
+}
+
+.partners-block {
+   display: flex;
+   flex-direction: column;
+}
+
+.partners-title {
+   color: white;
+   font-family: 'Playfair Display';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 48px;
+   text-align: center;
+   text-transform: uppercase;
+   margin-top: 90px;
+}
+
+.partners-title::after {
+content: '';
+display: block;
+height: 2px;
+background: url(../../img/line.png) center no-repeat;
+color: white;
+margin-top: 40px;
+margin-bottom: 65px;
+}
+
+.partners-blocks {
+   display: flex;
+   align-items: center;
+}
