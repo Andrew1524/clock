@@ -1,0 +1,50 @@
+footer {
+   color: white;
+   position: relative;
+   background: #0F0F0F url(../../img/footer-bg/footer_bg.png) center no-repeat;
+   z-index: 1;
+   padding-bottom: 40px;
+}
+
+.foot-block {
+   
+
+}
+
+.foot-title {
+   font-family: 'Playfair Display';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 24px;
+   line-height: 32px;
+   text-transform: uppercase;
+   margin-top: 80px;
+   margin-bottom: 40px;
+}
+
+.foot-text {
+   width: 350px;
+   height: 231px;
+   font-family: 'PT Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 150%;
+}
+
+.foot-text__send {
+   width: 350px;
+   height: 84px;
+   font-family: 'PT Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 150%;
+}
+
+.btn-foot {
+   padding: 10px 20px;
+   background: black;
+   color: white;
+   margin-bottom: 20px;
+}
